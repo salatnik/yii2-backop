@@ -115,22 +115,3 @@ abstract class Operation
         return $this->hasAttribute($key);
     }
 }
-
-class simon extends Operation
-{
-    /**
-     * Main operation objective.
-     * This method is the only one that will be triggered upon execution. You can add your own methods to your custom
-     * class if needed and trigger them from here. This method should always return bool.
-     *
-     * @return bool
-     * @trows OperationException
-     */
-    public function run()
-    {
-        // TODO: Implement run() method.
-    }
-}
-
-
-(new simon())->date_create = 123;
