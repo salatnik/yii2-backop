@@ -1,0 +1,19 @@
+{
+  "name": "salatnik/yii2-backop",
+  "description": "Yii2 component for running operations in the background.",
+  "authors": [
+    {
+      "name": "Semen Kamenetskiy",
+      "email": "skamenetskiy@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "salatnik\\backop\\": "src"
+    }
+  }
+}
